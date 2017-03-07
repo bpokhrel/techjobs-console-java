@@ -136,6 +136,7 @@ public class JobData {
             for (String key : row.keySet()) {
                 String allvalue = row.get(key);
                 if (allvalue.toLowerCase().contains(value)) {
+
                     jobs.add(row);
                 }
             }
